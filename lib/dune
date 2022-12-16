@@ -1,0 +1,10 @@
+(library
+ (name simple_krb5)
+ (public_name simple_krb5)
+ (synopsis "simple krb5 bindings")
+ (modules :standard)
+ (wrapped false)
+ (c_library_flags (:standard -lkrb5))
+ (foreign_stubs (language c)
+   (names ml_krb5) (flags (:standard -Wall))
+))

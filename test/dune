@@ -1,0 +1,3 @@
+(test
+ (name simple_krb5)
+ (libraries simple_krb5))
